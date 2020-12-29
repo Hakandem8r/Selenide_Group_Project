@@ -8,5 +8,6 @@ public interface LocatorsBy {
     By USERNAME = By.cssSelector("input[formcontrolname='username']");
     By PASSWORD = By.cssSelector("input[formcontrolname='password']");
     By GOTIT = By.partialLinkText("Got it");
+    By USERBELL = By.cssSelector("user-message-bell");
 
 }
