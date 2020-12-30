@@ -16,5 +16,11 @@ public interface Locators1 {
     By COUNTRIES = By.xpath("//span[contains(text(),'Countries')]");
     By ADDBUTTON = By.tagName("ms-add-button");
     By DIALOGCONTAINER = By.cssSelector("mat-dialog-container");
+    By FORM_NAME = By.cssSelector("ms-text-field[formcontrolname='name']>input");
+    By FORM_CODE = By.cssSelector("ms-text-field[formcontrolname='code']>input");
+    By FORM_SAVE_BUTTON = By.cssSelector("mat-dialog-actions ms-save-button");
+
+
+
 
 }
